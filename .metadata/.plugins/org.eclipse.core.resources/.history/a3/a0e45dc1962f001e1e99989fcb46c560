@@ -1,0 +1,12 @@
+package mypfkg2;
+import mypkg.*;
+
+
+public class MyCalcTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		MyCalculator mb = new MyCalculator();
+	}
+
+}
