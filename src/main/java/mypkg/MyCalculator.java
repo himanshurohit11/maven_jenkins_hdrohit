@@ -8,7 +8,11 @@ public class MyCalculator {
 	}
 	public int sub(int a, int b)
 	{
-		return a+b;
+		return a-b;
+	}
+	public int mul(int a, int b)
+	{
+		return a*b;
 	}
 
 	public static void main(String[] args) {
@@ -16,7 +20,7 @@ public class MyCalculator {
 		MyCalculator ob = new MyCalculator();
 		System.out.println("Addition is" + ob.sum(10, 20));
 		System.out.println("Substraction is" + ob.sub(30, 20));
-
+		System.out.println("Multiplition is" + ob.mul(30, 20));
 	}
 
 }
